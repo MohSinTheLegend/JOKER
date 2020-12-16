@@ -1,8 +1,8 @@
-Mohsin# the brand# Thuglife# MohsinAli# Gamz#!/usr/bin/python2
+# Ustad# BRAND# Thuglife# Mohsin Ali# Gamz#!/usr/bin/python2
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(3000):
+for n in range(20000):
 
     nmbr = random.randint(1111111, 9999999)
     
