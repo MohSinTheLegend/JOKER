@@ -151,11 +151,13 @@ def menu():
 
 
 def action():
-    somi = raw_input('\n\n \x1b[1;90m╾  ')
-    if somi == '':
+	global cpb
+         global oks
+    mohsin = raw_input('\n\n \x1b[1;90m╾  ')
+    if mohsin == '':
         print '[!] Fill in correctly'
         action()
-    elif somi == '1':
+    elif mohsin == '1':
         tik()
         os.system('clear')
         print logo2
@@ -170,8 +172,8 @@ def action():
         except IOError:
             print '[!] File Not Found'
             raw_input('\n[ Back ]')
-            somi()                    
-    elif somi == '0':            
+            mohsin()                    
+    elif mohsin == '0':            
             login()
     else:
         print '[!] Fill In Correctly'
